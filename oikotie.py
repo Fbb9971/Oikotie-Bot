@@ -97,7 +97,7 @@ class OikotieInteractiveBot:
 
 
 OIKOTIE_URL = "https://asunnot.oikotie.fi/vuokra-asunnot?pagination=1&locations=%5B%5B39,6,%22Espoo%22%5D,%5B64,6,%22Helsinki%22%5D%5D&cardType=101&price%5Bmax%5D=715&size%5Bmin%5D=23&secondarySearchType=1&priceAvailable%5B%5D=1&constructionYear%5Bmin%5D=2000"
-TELEGRAM_TOKEN = "8587670418:AAGeoW3uwdUCIYFPvtgN3UJqd_8fmAAItHk"
+TELEGRAM_TOKEN = "8587670418:AAHo1Ndxob0ACRJACNVxZVdrcH2HUQqW3Zg"
 MY_CHAT_ID = 5635905785 
 
 app = OikotieInteractiveBot(url=OIKOTIE_URL, tg_token=TELEGRAM_TOKEN, chat_id=MY_CHAT_ID)
